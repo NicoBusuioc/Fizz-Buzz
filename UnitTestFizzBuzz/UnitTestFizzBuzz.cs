@@ -77,7 +77,7 @@ namespace UnitTestFizzBuzz
             Assert.AreEqual(BUZZ, result);
         }
 
-        [Ignore]
+        [TestMethod]
         public void InputNumberContains_3_ReturnsFizz()
         {
             int inputNumber = 13;
