@@ -17,3 +17,13 @@ C:\Users\nicol\OneDrive\Desktop\ZKW\Ihr_Termin_ZKW_Elektronik_GmbH\2ndTry\UnitTe
 C:\Users\nicol\OneDrive\Desktop\ZKW\Ihr_Termin_ZKW_Elektronik_GmbH\2ndTry\UnitTestFizzBuzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.csproj.CopyComplete
 C:\Users\nicol\OneDrive\Desktop\ZKW\Ihr_Termin_ZKW_Elektronik_GmbH\2ndTry\UnitTestFizzBuzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.dll
 C:\Users\nicol\OneDrive\Desktop\ZKW\Ihr_Termin_ZKW_Elektronik_GmbH\2ndTry\UnitTestFizzBuzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.pdb
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\bin\Debug\UnitTestFizzBuzz.dll
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\bin\Debug\UnitTestFizzBuzz.pdb
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\bin\Debug\FizzBuzz.xml
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.csprojAssemblyReference.cache
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.csproj.CoreCompileInputs.cache
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.csproj.CopyComplete
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.dll
+C:\Temp\Fizz-Buzz\UnitTestFizzBuzz\obj\Debug\UnitTestFizzBuzz.pdb
