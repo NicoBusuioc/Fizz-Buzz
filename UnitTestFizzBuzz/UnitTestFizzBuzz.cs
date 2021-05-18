@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows;
 using FizzBuzzGame;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -16,29 +17,28 @@ namespace UnitTestFizzBuzz
         public void Initialize()
         {
             _fizzBuzz = new FizzBuzz();
+            MessageBox.Show("TestInitialize");
         }
 
+
+
+        
 
         [TestMethod]
         public void InputNumberIsDivisible_With3And5_ReturnsFizzBuzz()
         {
-            //arrange
+           
             int inputNumber = 15;
 
-
-            //act
-            // instanciate non-static class of FizzBuzz to be able to verify it:
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
-
-            //assert 
             Assert.AreEqual(FIZZBUZZ, result);
         }
 
         [TestMethod]
         public void InputNumberIsDivisible_With3_ReturnsFizz()
         {
-            int inputNumber = 3;
+            int inputNumber = 27;
 
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
@@ -48,7 +48,7 @@ namespace UnitTestFizzBuzz
         [TestMethod]
         public void InputNumberIsDivisible_With5_ReturnsBuzz()
         {
-            int inputNumber = 5;
+            int inputNumber = 20;
 
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
@@ -59,7 +59,7 @@ namespace UnitTestFizzBuzz
         public void InputNumberContains_3And5_ReturnsFizzBuzz()
         {
             int inputNumber = 53;
-            //int inputNumber = 35;
+           //int inputNumber = 35;  // Contains 3 and 5 --- and ---  Is dibisible with 5 --- >  returns "Fizz"
 
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
@@ -70,14 +70,14 @@ namespace UnitTestFizzBuzz
         public void InputNumberContains_5_ReturnsBuzz()
         {
             int inputNumber = 56;
-            //int inputNumber = 51;
+            //int inputNumber = 51;   // Contains 5 --- and --- Is divisible with 3 --->  returns "Fizz"
 
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
             Assert.AreEqual(BUZZ, result);
         }
 
-        [TestMethod]
+        [Ignore]
         public void InputNumberContains_3_ReturnsFizz()
         {
             int inputNumber = 13;
@@ -85,6 +85,16 @@ namespace UnitTestFizzBuzz
             var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
 
             Assert.AreEqual(FIZZ, result);
+        }
+
+        [TestMethod]
+        public void InputNumberHas_NoMatch_ReturnsInputNumber()
+        {
+            int inputNumber = 22;
+
+            var result = _fizzBuzz.FizzBuzzConversion(inputNumber);
+
+            Assert.AreEqual(inputNumber.ToString(), result);
         }
 
     }
